@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"
+        integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- End Script -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- End Stylesheet -->
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 py-3 fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="assets/icon/logo.jpeg" width="50" height="50" alt="Quedo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <div class="my-2 my-lg-0">
+                <button class="btn px-5 py-3 btn-primary text-white my-2 my-sm-0" type="submit">Sign In</button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Jumbotron -->
+    <div class="jumbotron ">
+        <div class="container ">
+            <div id="jumbotron-header">
+                <h1 class="title-head display-4">Quest-to-do !</h1>
+                <p style="width: 60%;">Quest-to-do adalah platform website yang memberikan layanan yang mempermudah
+                    pelajar untuk membantu dalam mengerjakan tugasnya.</p>
+                <div class="row mx-auto">
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Buat Quest !</a></p>
+                    <p><a class="btn btn-outline-primary btn-lg ml-3" href="#" role="button">Selesaikan Quest ?</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+    <!-- Service -->
+    <div class="container mt-5">
+        <hr>
+        <div class="text-left mt-4">
+            <h3 class="title-head">Apa yang bisa kamu lakukan ? </h3>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-pencil text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Buat Quest</p>
+                </div>
+                <p class="text-description">
+                    Buat lowongan Quest-to-do untuk membantu pengerjaan tugasmu. Dan tunggu penawaran yang masuk.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-users text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Pilih Quester</p>
+                </div>
+                <p class="text-description">
+                    Setelah membuat Quest-to-do. Dan selanjutnya kamu tinggal mencari Quester yang tepat untuk membantu
+                    tugasmu.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-lock text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Transaksi Aman</p>
+                </div>
+                <p class="text-description">
+                    Transaksi akan diverifikasi oleh sistem. Bayar, dapatkan hasil tugasmu, dan Quester mendapatkan
+                    uangnya.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-users text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Tim Kompeten</p>
+                </div>
+                <p class="text-description">
+                    Setiap Quester telah melewati tes dan dilengkapi dengan sertifikat yang sesuai
+                    dengan bidang masing-masing.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Service -->
+    <div class="container">
+        <hr>
+    </div>
+    <!-- Why -->
+    <div class="container mt-5">
+        <div class="text-left mt-4">
+            <h3 class="title-head">Mengapa dengan Quest-to-do ? </h3>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-pencil text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Buat Quest</p>
+                </div>
+                <p class="text-description">
+                    Buat lowongan Quest-to-do untuk membantu pengerjaan tugasmu. Dan tunggu penawaran yang masuk.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-users text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Pilih Quester</p>
+                </div>
+                <p class="text-description">
+                    Setelah membuat Quest-to-do. Dan selanjutnya kamu tinggal mencari Quester yang tepat untuk membantu
+                    tugasmu.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-lock text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Transaksi Aman</p>
+                </div>
+                <p class="text-description">
+                    Transaksi akan diverifikasi oleh sistem. Bayar, dapatkan hasil tugasmu, dan Quester mendapatkan
+                    uangnya.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <div class="row mx-auto">
+                    <i class="fas fa-2x fa-users text-primary"></i>
+                    <p class="mt-1 ml-4 desc-text">Tim Kompeten</p>
+                </div>
+                <p class="text-description">
+                    Setiap Quester telah melewati tes dan dilengkapi dengan sertifikat yang sesuai
+                    dengan bidang masing-masing.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Why -->
+
+</body>
+
+</html>
